@@ -43,7 +43,7 @@ const Home = () => (
   
   <div>
     <header className="App-header" style={appHeaderStyle}>
-      <h2 class="ui center aligned icon header">
+      <h2 className="ui center aligned icon header">
         <img src="https://d1.awsstatic.com/serverless/Lambda%20Resources%20images/sam_acorn_shadow.8915b92ddd48a78d8c05d55ce4b26e472889c573.png" className="App-logo" alt="logo" />
         <span style={headerStyle}>A Serverless Web App powered by AWS AppSync</span>
       </h2>

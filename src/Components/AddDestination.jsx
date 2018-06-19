@@ -56,7 +56,7 @@ export default class AddDestination extends Component {
                             <label htmlFor="description">Description</label>
                             <input type="text" id="description" value={this.state.description} onChange={this.handleChange.bind(this, 'description')} />
                     </div>
-                    <div class="fields">
+                    <div className="fields">
                         <div className="required field required eight ">
                                 <label htmlFor="city">City</label>
                                 <input type="text" id="city" value={this.state.city} onChange={this.handleChange.bind(this, 'city')} />
